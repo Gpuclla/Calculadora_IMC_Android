@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesoBajo"
+    android:background="@drawable/hoja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Peso muy bueno"
+            android:textSize="30dp"
+            android:textStyle="bold">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pregunta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="¿Qué es el bajo peso?">
+            </TextView>
+
+            <TextView
+                android:id="@+id/contenido"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Pese a que en muchas ocasiones estar delgado es signo de salud, tener bajo peso puede ser algo preocupante. Esto sucede cuando es debido a una mal nutrición, hay un embarazo o por otros problemas de salud.
+                Una persona tiene bajo peso cuando se encuentra por debajo de un valor saludable."
+                android:textAlignment="textStart"
+                android:textSize="10dp">
+            </TextView>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_toRightOf="@+id/contenido"
+                android:src="@drawable/balanza">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_toRightOf="@+id/contenido"
+                android:src="@drawable/perfil">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/pregunta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:textSize="20dp"
+                android:text="¿Cuál es la causa del bajo peso?">
+            </TextView>
+            <TextView
+                android:id="@+id/contenido2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:text="La causa más frecuente de bajo peso es la desnutrición, debido a la ausencia de alimentos adecuados. Esta causa de bajo peso puede ser debido a múltiples factores, como un trastorno alimentario, diabetes o glándula tiroides hiperactiva.
+
+El bajo peso puede ser consecuencia de una pérdida de apetito, motivada por:\n
+-->Depresión,\n
+-->estrés o ansiedad \n
+-->Cáncer\n
+-->Enfermedades o infecciones crónicas\n
+-->Fármacos\n
+-->Drogas ilícitas"
+                android:textAlignment="textStart"
+                android:textSize="10dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/pregunta3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:textSize="20dp"
+                android:text="Tratamientos para el bajo peso">
+            </TextView>
+
+            <TextView
+                android:id="@+id/contenido3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="380dp"
+                android:text="
+Existen diversos métodos para aumentar de peso de una forma saludable, entre las que podemos destacar:\n
+
+--->Comer con mayor frecuencia: es posible que el paciente se sienta satisfecho más rápido, si tiene bajo peso. Se recomienda comer 5 o 6 veces diarias con menor cantidad, en lugar de 2 o 3 grandes comidas.\n
+--->Licuados y batidos: las bebidas saludables con leche y fruta, con algo de lianza molida, son altamente aconsejables. Por el contrario, no se recomienda el café, refrescos dietéticos u otras bebidas con pocas calorías o valor nutricional.\n
+--->Alimentos ricos en nutrientes: pan, pasta, cereales integrales, vegetales y frutas, así como lácteos, fuentes de proteínas magra y nueces y semillas.\n
+--->Controlar los líquidos: a veces los líquidos antes de las comidas pueden reducir el apetito. En tal caso, se recomienda tomar bebidas con alto contenido calórico, junto a una comida. También se puede beber media hora tras comer.\n
+--->Agregar extras: añadir ingredientes como queso en los guisos y huevos revueltos o leche en polvo descremada en sopas, añadirá un mayor número de calorías.\n
+--->Practicar ejercicio: especialmente el fortalecimiento muscular, es útil para aumentar de peso al fortalecer los músculos. Asimismo, también estimulará el apetito.\n
+--->Permitirnos un gusto: incluso las personas con bajo peso deben vigilar los excesos de grasa y azúcar. Las magdalenas de salvado, las barritas de granola o el yogurt son buenas opciones.\n"
+                android:textAlignment="textStart"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
